@@ -1,12 +1,14 @@
 export default function decorate(block) {
-  const link = block.querySelector('a');
-  if (link) {
-    const imageUrl = link.href;
+  const cells=block.querySelectorAll('div > div');
+  cells.forEach(function (cell){
+    const links = cell.querySelectorAll('a');
+
+    links.forEach(function (link){
     const img = document.createElement('img');
-    img.src = imageUrl;
-    img.alt = link.textContent;
+    img.src = link.href;
+    img.alt = '';
     img.loading = 'lazy';
-    // block.textContent = '';
-    block.appendChild(img);
-  }
+    link.replaceWith(img);
+  });
+  });
 }

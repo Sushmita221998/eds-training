@@ -1,0 +1,67 @@
+.footer-wrapper:before{
+    background-color: rgba(0, 0, 0, 0.81);
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: -1;
+}
+
+.footer-wrapper{
+    background-position: center center;
+    background-image: url(https://themeloto.com/wps/transpo/wp-content/uploads/2024/11/transpo-slider.jpg);
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.footer-table.block>div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+}
+
+.footer-table > div{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+}
+
+.footer-table > div.col-lg-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+
+.footer-table div p img{
+    width:100px;
+    display: inline-block;
+    padding: 1.79104477%;
+    text-align: center;
+    vertical-align: top;
+    width: 100%;
+    margin: 0;
+}
+
+.footer-table{
+    color:white;
+}
+
+.footer-table p:first-child img{
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* .footer-table.block > div:nth-child(4) img{
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+} */
