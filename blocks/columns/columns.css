@@ -15,6 +15,16 @@
   order: 0;
 }
 
+/* New CSS */
+.columns1 img{
+  width:auto;
+  max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    height: auto;
+}
+
 .columns > div > .columns-img-col img {
   display: block;
 }
@@ -30,14 +40,4 @@
     flex: 1;
     order: unset;
   }
-}
-
-/* New CSS */
-.columns1 img{
-  width:auto;
-  max-width: 100%;
-    border: none;
-    border-radius: 0;
-    box-shadow: none;
-    height: auto;
 }
