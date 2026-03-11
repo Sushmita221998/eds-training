@@ -113,7 +113,6 @@ function toggleMenu(nav, navSections, forceExpanded = null) {
  * @param {Element} block The header block element
  */
 export default async function decorate(block) {
-
   // Code for TopHeader
   const topHeaderMeta = getMetadata('top-header');
   const topHeaderPath = topHeaderMeta ? new URL(topHeaderMeta, window.location).pathname : '/top-header';
