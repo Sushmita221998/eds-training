@@ -1,4 +1,4 @@
-.footer-wrapper:before {
+.footer-wrapper::before {
     background-color: #000000cf;
     content: "";
     position: absolute;
@@ -30,8 +30,8 @@
 .footer-table>div {
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
-    display: flex;
 
+    display: flex;
     flex-wrap: wrap;
     margin-top: calc(var(--bs-gutter-y) * -1);
     margin-right: calc(var(--bs-gutter-x) * -.5);
@@ -39,9 +39,7 @@
 }
 
 .footer-table.block>div {
-
     display: grid;
-
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     height: auto;
