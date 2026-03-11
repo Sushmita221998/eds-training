@@ -1,5 +1,5 @@
 export default function decorate(block) {
-  //Render the external image
+  // Render the external image
   const cells = block.querySelectorAll('div > div');
   cells.forEach(function (cell) {
     const links = cell.querySelectorAll('a[href$=".jpg"],a[href$=".jpeg"],a[href$=".png"]');
