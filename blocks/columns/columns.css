@@ -50,7 +50,6 @@
   display: flex;
   margin-inline: -8px;
   position: relative;
-  word-break: break-word;
   gap: 5px;
 }
 
