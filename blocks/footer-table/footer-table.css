@@ -24,13 +24,14 @@
 }
 
 .footer-table-end {
-    padding: 0px;
+    padding: 0;
 }
 
 .footer-table>div {
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
     display: flex;
+
     flex-wrap: wrap;
     margin-top: calc(var(--bs-gutter-y) * -1);
     margin-right: calc(var(--bs-gutter-x) * -.5);
@@ -38,15 +39,16 @@
 }
 
 .footer-table.block>div {
-    
+
     display: grid;
+
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     height: auto;
     flex-shrink: 0;
     width: 100%;
     max-width: 100%;
-    padding: 0px;
+    padding: 0;
 }
 
 .footer-table div p img {
