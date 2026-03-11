@@ -1,4 +1,4 @@
-.columns > div {
+.columns>div {
   display: flex;
   flex-direction: column;
 }
@@ -7,37 +7,58 @@
   width: 100%;
 }
 
-.columns > div > div {
+.columns>div>div {
   order: 1;
 }
 
-.columns > div > .columns-img-col {
+.columns>div>.columns-img-col {
   order: 0;
 }
 
 /* New CSS */
-.columns1 img{
-  width:auto;
+.columns1 img {
+  width: auto;
   max-width: 100%;
-    border: none;
-    border-radius: 0;
-    box-shadow: none;
-    height: auto;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  height: auto;
 }
 
-.columns > div > .columns-img-col img {
+.columns>div>.columns-img-col img {
   display: block;
 }
 
-@media (width >= 900px) {
-  .columns > div {
+@media (width >=900px) {
+  .columns>div {
     align-items: center;
     flex-direction: unset;
     gap: 24px;
   }
 
-  .columns > div > div {
+  .columns>div>div {
     flex: 1;
     order: unset;
   }
+}
+
+.columns1>div>div:last-child p:has(picture) {
+  display: flex;
+}
+
+.columns1>div>div:last-child ul {
+  display: flex;
+  margin-inline: -8px;
+  position: relative;
+  word-break: break-word;
+  gap: 5px;
+}
+
+.columns1>div>div:last-child ul li {
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  position: relative;
+  margin-inline: 8px;
 }

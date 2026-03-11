@@ -28,11 +28,11 @@
 
 /* Cards Variant CSS */
 
-.cards-icon {
+.cards-icon1 {
   text-align: center;
 }
 
-.cards-icon>ul>li img {
+.cards-icon1>ul>li img {
   border: none;
   border-radius: 0;
   box-shadow: none;
@@ -43,11 +43,11 @@
   width: auto;
 }
 
-.cards-icon>ul>li {
+.cards-icon1>ul>li {
   padding: 30px 25px;
 }
 
-.cards-icon>ul>li h2 {
+.cards-icon1>ul>li h2 {
   font-weight: 500;
   margin: 0 0 5px;
   box-shadow: none;
@@ -58,7 +58,7 @@
   font-size: 21px;
 }
 
-.cards-icon>ul>li p {
+.cards-icon1>ul>li p {
   font-family: sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -66,4 +66,31 @@
   line-height: 1.5;
   color: #74787c;
   margin: 0;
+}
+
+.cards-icon2>ul>li {
+  padding: 30px 25px;
+}
+
+.cards-icon2>ul>li img {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  height: auto;
+  max-width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  width: 70px;
+}
+
+.cards-icon2 .cards-card-body {
+  margin: auto;
+}
+
+.cards-icon2 > ul{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:30px;
+  width:100%;
+  height:100%;
 }
