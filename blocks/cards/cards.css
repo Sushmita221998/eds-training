@@ -25,3 +25,48 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+
+/* Cards Variant CSS */
+
+.cards-icon {
+  text-align: center;
+}
+
+.cards-icon > ul > li img {
+  border: none;
+    border-radius: 0;
+    box-shadow: none;
+    height: auto;
+    max-width: 100%;
+    aspect-ratio: 4 / 3;
+  object-fit: cover;
+  width:auto;
+}
+
+.cards-icon > ul > li {
+    padding: 30px 25px;
+}
+
+.cards-icon > ul > li h2 {
+    font-weight: 500;
+        margin: 0 0 5px;
+        box-shadow: none;
+    text-decoration: none;
+        font-family: 'Lato', sans-serif;
+    font-style: normal;
+    line-height: 1.2;
+    font-size: 21px;
+}
+
+.cards-icon > ul > li p {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #74787c;
+    margin: 0;
+}
+
+    
+
