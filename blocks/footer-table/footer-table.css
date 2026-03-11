@@ -1,4 +1,4 @@
-.footer-wrapper:before{
+.footer-wrapper:before {
     background-color: rgba(0, 0, 0, 0.81);
     content: "";
     position: absolute;
@@ -11,7 +11,7 @@
     z-index: -1;
 }
 
-.footer-wrapper{
+.footer-wrapper {
     background-position: center center;
     background-image: url(https://themeloto.com/wps/transpo/wp-content/uploads/2024/11/transpo-slider.jpg);
     background-size: cover;
@@ -19,22 +19,22 @@
     z-index: 1;
 }
 
-.footer-table-container{
+.footer-table-container {
     padding: 100px 0 90px;
 }
 
-.footer-table-end{
+.footer-table-end {
     padding: 0px;
 }
 
-.footer-table.block>div{
+.footer-table.block>div {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap:20px;
-    height:auto;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    height: auto;
 }
 
-.footer-table > div{
+.footer-table>div {
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
     display: flex;
@@ -49,8 +49,8 @@
         width: 33.33333333%;
     } */
 
-.footer-table div p img{
-    width:100px;
+.footer-table div p img {
+    width: 100px;
     display: inline-block;
     padding: 1.79104477%;
     text-align: center;
@@ -59,11 +59,11 @@
     margin: 0;
 }
 
-.footer-table{
-    color:white;
+.footer-table {
+    color: white;
 }
 
-.footer-table p:first-child img{
+.footer-table p:first-child img {
     max-width: 100%;
     height: auto;
 }
@@ -74,11 +74,11 @@
     margin-top: 10px;
 } */
 
-footer .footer > div {
-padding: 0px;
+footer .footer>div {
+    padding: 0px;
 }
 
-.footer-table > div{
+.footer-table>div {
     flex-shrink: 0;
     width: 100%;
     max-width: 100%;
@@ -87,48 +87,47 @@ padding: 0px;
     margin-top: var(--bs-gutter-y);
 }
 
-.footer-table div h2{
-        font-weight: 500;
-        margin: 0 0 5px;
-        font-size: 18.03px;
-        position: relative;
-        margin-top: 20px;
+.footer-table div h2 {
+    font-weight: 500;
+    margin: 0 0 5px;
+    font-size: 18.03px;
+    position: relative;
+    margin-top: 20px;
 }
 
-.footer-table div hr{
-        border-color:#eb1933;
-        width: 26%;
-        display: inline-block;
+.footer-table div hr {
+    border-color: #eb1933;
+    width: 26%;
+    display: inline-block;
 }
 
-.footer-table div:nth-child(2) > div:nth-child(4){
+.footer-table div:nth-child(2)>div:nth-child(4) {
     display: flex;
-    gap:5px;
+    gap: 5px;
 }
 
-.footer-table div:nth-child(3) > div:nth-child(4){
+.footer-table div:nth-child(3)>div:nth-child(4) {
     display: flex;
-    gap:5px;
+    gap: 5px;
 }
 
-.footer-table div a{
-    color:white;
+.footer-table div a {
+    color: white;
 }
 
-.footer-table-end .footer-table-wrapper{
+.footer-table-end .footer-table-wrapper {
     padding: 15px 0 15px;
     display: flex;
     flex-wrap: wrap;
 }
 
-.footer-table-end .footer-table-wrapper .block div div hr{
-    color:white;
+.footer-table-end .footer-table-wrapper .block div div hr {
+    color: white;
     align-items: center;
-    width:800px;
-    margin: 60px 0 60px;
+    width: 800px;
 }
 
-.footer-table-end .footer-table{
-display: block;
-text-align: center;
+.footer-table-end .footer-table {
+    display: block;
+    text-align: center;
 }
