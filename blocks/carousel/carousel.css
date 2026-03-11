@@ -151,3 +151,17 @@
     --slide-content-width: auto;
   }
 }
+
+/* New CSS */
+.top-carousel .carousel-wrapper{
+  padding: 0;
+  max-width: 100%;
+}
+
+.top-carousel .carousel-slide .carousel-slide-image picture > img {
+  object-fit: contain;
+}
+
+.top-carousel .carousel-slide-indicators{
+  display: none;
+}
