@@ -1,5 +1,5 @@
 .footer-wrapper:before {
-    background-color: rgba(0, 0, 0, 0.81);
+    background-color: #000000cf;
     content: "";
     position: absolute;
     top: 0;
@@ -50,9 +50,8 @@
     } */
 
 .footer-table div p img {
-    width: 100px;
     display: inline-block;
-    padding: 1.79104477%;
+    padding: 1.7910%;
     text-align: center;
     vertical-align: top;
     width: 100%;
@@ -74,11 +73,11 @@
     margin-top: 10px;
 } */
 
-footer .footer>div {
+.footer-table.block>div {
     padding: 0px;
 }
 
-.footer-table>div {
+.footer-table.block>div {
     flex-shrink: 0;
     width: 100%;
     max-width: 100%;
@@ -116,7 +115,7 @@ footer .footer>div {
 }
 
 .footer-table-end .footer-table-wrapper {
-    padding: 15px 0 15px;
+    padding: 15px 0;
     display: flex;
     flex-wrap: wrap;
 }
