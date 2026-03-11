@@ -114,13 +114,13 @@ function toggleMenu(nav, navSections, forceExpanded = null) {
  */
 export default async function decorate(block) {
 
-  //Code for TopHeader
-  const topHeaderMeta =getMetadata('top-header');
+  // Code for TopHeader
+  const topHeaderMeta = getMetadata('top-header');
   const topHeaderPath = topHeaderMeta ? new URL(topHeaderMeta, window.location).pathname : '/top-header';
   const topHeaderfragment = await loadFragment(topHeaderPath);
-  const topHeader=document.createElement('div');
-  topHeader.className='top-header';
-  while(topHeaderfragment.firstElementChild){
+  const topHeader = document.createElement('div');
+  topHeader.className = 'top-header';
+  while (topHeaderfragment.firstElementChild) {
     topHeader.append(topHeaderfragment.firstElementChild);
   }
 
@@ -179,7 +179,7 @@ export default async function decorate(block) {
   navWrapper.className = 'nav-wrapper';
   navWrapper.append(nav);
 
-  //Append topHeader and Nav
+  // Append topHeader and Nav
   block.append(topHeader);
   block.append(navWrapper);
 }
