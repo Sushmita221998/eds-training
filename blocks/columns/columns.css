@@ -61,3 +61,16 @@
   position: relative;
   margin-inline: 8px;
 }
+
+.columns-single-img .columns-wrapper {
+  margin-right: 200px !important;
+}
+
+.columns-single-img .columns>div {
+  flex-direction: column;
+}
+
+.columns-single-img .columns>div>.columns-img-col img {
+  width: 539px;
+  height: 632px;
+}

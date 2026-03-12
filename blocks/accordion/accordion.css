@@ -3,7 +3,7 @@
 }
 
 /* stylelint-disable-next-line no-descending-specificity */
-.accordion details + details {
+.accordion details+details {
   margin-top: 24px;
 }
 
@@ -58,4 +58,28 @@
 .accordion details[open] .accordion-item-body {
   border-top: 1px solid #dadada;
   background-color: var(--background-color);
+}
+
+.accordion2 {
+  float: left;
+}
+
+.accordion2 .accordion-wrapper {
+  margin-left: 200px !important;
+  width: 550px;
+  height: 631px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.accordion2 .accordion details:first-child {
+  border: none;
+}
+
+.accordion2 .accordion details:first-child summary::after {
+  display: none;
+}
+
+.accordion2 .accordion details:first-child .accordion-item-body {
+  display: none;
 }

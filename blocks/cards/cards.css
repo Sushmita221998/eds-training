@@ -159,3 +159,16 @@
   object-fit: contain;
   width: 70px;
 }
+
+.cards-image1 .cards-wrapper {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.cards-image1 .cards-card-image {
+  width: 364px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 15px;
+  margin-right: 15px;
+}
