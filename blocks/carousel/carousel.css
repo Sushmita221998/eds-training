@@ -165,7 +165,7 @@
 .top-carousel .carousel-slide-indicators {
   display: none;
 }
-
+/* 
 .carousel-rating .carousel-slide-indicators {
   display: none;
 }
@@ -213,4 +213,4 @@
 .carousel-rating .carousel-slide .carousel-slide-image picture {
   position: static;
   offset: 0;
-}
+} */

@@ -60,7 +60,7 @@
   background-color: var(--background-color);
 }
 
-.accordion2 {
+/* .accordion2 {
   float: left;
 }
 
@@ -82,4 +82,4 @@
 
 .accordion2 .accordion details:first-child .accordion-item-body {
   display: none;
-}
+} */
