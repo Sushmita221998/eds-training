@@ -1,11 +1,12 @@
 .accordion details {
   border: 1px solid #dadada;
+   margin-top: 24px;
 }
 
 /* stylelint-disable-next-line no-descending-specificity */
-.accordion details {
-  margin-top: 24px;
-}
+/* .accordion details {
+ 
+} */
 
 .accordion details p {
   margin-bottom: 0.8em;
@@ -60,7 +61,7 @@
   background-color: var(--background-color);
 }
 
-/* .accordion2 {
+.accordion2 {
   float: left;
 }
 
@@ -82,4 +83,4 @@
 
 .accordion2 .accordion details:first-child .accordion-item-body {
   display: none;
-} */
+}
