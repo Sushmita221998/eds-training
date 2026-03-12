@@ -30,8 +30,51 @@
   height: 100%;
 }
 
-@media (width >= 900px) {
+@media (width >=900px) {
   .hero {
     padding: 40px 32px;
   }
+}
+
+.hero1 {
+  padding: 50px;
+  height: auto !important;
+  width: auto;
+  min-height: auto;
+}
+
+.hero1 div div {
+  display: flex;
+  width: max-content;
+}
+
+.hero1 div div h2 {
+  color: #FFFFFF;
+  padding: 10px 0px 0px 0px;
+  margin: 0;
+  font-size: 45px;
+  font-weight: 500;
+  max-width: 850px;
+  float: left;
+  text-align: left;
+}
+
+.hero1 div div p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.hero1 div div p picture {
+  background-position: center center;
+  background-size: cover;
+}
+
+.hero1 div div p a {
+  color: #fff !important;
+  background-color: #eb1933 !important;
+}
+
+.hero1 div div p a:hover {
+  background-color: #022559;
+  border: none !important;
 }
