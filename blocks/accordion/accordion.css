@@ -3,11 +3,6 @@
    margin-top: 24px;
 }
 
-/* stylelint-disable-next-line no-descending-specificity */
-/* .accordion details {
- 
-} */
-
 .accordion details p {
   margin-bottom: 0.8em;
 }

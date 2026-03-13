@@ -32,6 +32,17 @@
   min-height: min(50vw, calc(100dvh - var(--header-height)));
 }
 
+.carousel-rating .carousel-slide {
+  max-width: 33.33%;
+  flex: 0 0 33.33%;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 1px;
+  border: 1px solid #e5e5e5;
+  padding: 30px 20px;
+  text-align: center;
+}
+
 .carousel .carousel-slide:has(.carousel-slide-content[data-align='center']) {
   align-items: center;
 }
@@ -43,6 +54,13 @@
 .carousel .carousel-slide .carousel-slide-image picture {
   position: absolute;
   inset: 0;
+}
+
+.carousel-rating .carousel-slide img {
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto 10px;
+  position: static;
 }
 
 .carousel .carousel-slide .carousel-slide-image picture>img {
@@ -156,24 +174,6 @@
 .top-carousel .carousel-wrapper {
   padding: 0;
   max-width: 100%;
-}
-
-.carousel-rating .carousel-slide {
-  max-width: 33.33%;
-  flex: 0 0 33.33%;
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-top: 1px;
-  border: 1px solid #e5e5e5;
-  padding: 30px 20px;
-  text-align: center;
-}
-
-.carousel-rating .carousel-slide img {
-  border-radius: 50%;
-  display: block;
-  margin: 20px auto 10px;
-  position: static;
 }
 
 .top-carousel .carousel-slide .carousel-slide-image picture>img {
