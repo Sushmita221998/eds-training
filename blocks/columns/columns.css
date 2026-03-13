@@ -69,3 +69,10 @@
 .columns-single-img .columns>div {
   flex-direction: column;
 }
+
+.columns-single-img .columns-wrapper img {
+  max-width: 150% !important;
+  max-height: 150% !important;
+  width: auto !important;
+  height: auto !important;
+}

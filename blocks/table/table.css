@@ -10,13 +10,13 @@
   font-size: var(--body-font-size-xs);
 }
 
-@media (width >= 600px) {
+@media (width >=600px) {
   .table table {
     font-size: var(--body-font-size-s);
   }
 }
 
-@media (width >= 900px) {
+@media (width >=900px) {
   .table table {
     font-size: var(--body-font-size-m);
   }
@@ -46,7 +46,7 @@
   margin: 0;
 }
 
-.table table td p + p {
+.table table td p+p {
   margin-top: 0.25em;
 }
 
@@ -64,4 +64,43 @@
 .table.bordered table th,
 .table.bordered table td {
   border: 1px solid #dadada;
+}
+
+.table-marquee1 .table {
+  background-color: #eb1933;
+  overflow-x: visible;
+  max-width: auto;
+}
+
+.table-marquee1 .table-wrapper {
+  padding: inherit !important;
+  max-width: max-content !important;
+}
+
+.table-marquee1 tbody {
+  display: flex;
+  gap: 80px;
+  white-space: nowrap;
+  animation: scroll 50s linear infinite;
+}
+
+.table-marquee1 .table tbody tr a {
+  background-image: url('https://themeloto.com/wps/transpo/wp-content/uploads/2024/11/transpo-slider2.jpg');
+  opacity: 1;
+  color: transparent;
+  font-size: 100px;
+  background-clip: text;
+  margin: 0px 40px;
+  background-position: center center;
+}
+
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
 }
