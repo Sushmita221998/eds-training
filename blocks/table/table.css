@@ -69,7 +69,6 @@
 .table-marquee1 .table {
   background-color: #eb1933;
   overflow-x: visible;
-  max-width: auto;
 }
 
 .table-marquee1 .table-wrapper {
@@ -91,7 +90,7 @@
   font-size: 100px;
   background-clip: text;
   margin: 0px 40px;
-  background-position: center center;
+  background-position: center;
 }
 
 
