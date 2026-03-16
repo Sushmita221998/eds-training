@@ -50,6 +50,10 @@
   margin-top: 0.25em;
 }
 
+.form1-container .table-wrapper table tr th {
+  color: #eb1933;
+}
+
 /* no header variant */
 .table.no-header table tbody tr {
   border-top: 1px solid #dadada;
@@ -112,10 +116,6 @@
 
 .form1-container .table-wrapper table {
   border: none;
-}
-
-.form1-container .table-wrapper table tr th {
-  color: #eb1933;
 }
 
 .form1-container .table-wrapper table tr {
