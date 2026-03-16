@@ -657,7 +657,7 @@ export default function decorate(block) {
             const form = buildForm(data, submit);
             block.replaceChildren(form);
             block.removeAttribute('style');
-            //New code
+            // Code for form1-container
             if (document.querySelector('.form1-container')) {
               const defaultContent = document.querySelector('.form1-container .default-content-wrapper');
               block.prepend(defaultContent);
