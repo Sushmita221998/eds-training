@@ -206,12 +206,12 @@
   font-size: var(--body-font-size-xs);
 }
 
-.form1-container .form .button-wrapper {
-  grid-column: span 2;
-}
-
 .form .button-wrapper {
   margin-top: 1em;
+}
+
+.form1-container .form .button-wrapper {
+  grid-column: span 2;
 }
 
 .form .button-wrapper button {
