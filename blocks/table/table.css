@@ -103,3 +103,25 @@
     transform: translateX(-100%);
   }
 }
+
+.form1-container .table-wrapper {
+  grid-column: 2;
+  grid-row: 2;
+  margin: 0;
+}
+
+.form1-container .table-wrapper table {
+  border: none;
+}
+
+.form1-container .table-wrapper table tr th {
+  color: #eb1933;
+}
+
+.form1-container .table-wrapper table tr {
+  border: none;
+}
+
+.form1-container .table-wrapper table tr td {
+  padding: 5px;
+}
