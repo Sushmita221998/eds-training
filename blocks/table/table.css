@@ -50,6 +50,10 @@
   margin-top: 0.25em;
 }
 
+.table.bordered table th{
+  border: 1px solid #dadada;
+}
+
 .form1-container .table-wrapper table tr th {
   color: #eb1933;
 }
@@ -65,7 +69,6 @@
 }
 
 /* bordered variant */
-.table.bordered table th,
 .table.bordered table td {
   border: 1px solid #dadada;
 }
