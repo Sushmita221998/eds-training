@@ -657,6 +657,11 @@ export default function decorate(block) {
             const form = buildForm(data, submit);
             block.replaceChildren(form);
             block.removeAttribute('style');
+            //New code
+            if (document.querySelector('.form1-container')) {
+              const defaultContent = document.querySelector('.form1-container .default-content-wrapper');
+              block.prepend(defaultContent);
+            }
           } catch (error) {
             // eslint-disable-next-line no-console
             console.error('Could not build form from', source, error);
