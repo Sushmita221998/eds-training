@@ -6,13 +6,13 @@
   overflow-x: auto;
 }
 
-@media (width >= 600px) {
+@media (width >=600px) {
   .tabs .tabs-list {
     font-size: var(--body-font-size-s);
   }
 }
 
-@media (width >= 900px) {
+@media (width >=900px) {
   .tabs .tabs-list {
     font-size: var(--body-font-size-m);
   }
@@ -54,4 +54,32 @@
 
 .tabs .tabs-panel[aria-hidden='true'] {
   display: none;
+}
+
+/*new css*/
+
+.horizontal-tabs {
+  display: flex;
+  gap: 20px;
+}
+
+.horizontal-tabs .tabs-list {
+  flex-direction: column;
+  width: 30% !important;
+}
+
+.horizontal-tabs .tabs-list>button {
+  padding: 15px;
+  background: #f1f2f3;
+  color: #022559;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-weight: 700;
+  align-items: center;
+  border-style: none;
+}
+
+.horizontal-tabs .tabs-list>button[aria-selected="true"] {
+  background: #eb1933;
+  color: #fff;
 }
