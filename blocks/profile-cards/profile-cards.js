@@ -1,16 +1,16 @@
 import { createOptimizedPicture } from '../../scripts/aem.js';
 
-//New Function Added
+// New Function Added
 function showHideProfileCards() {
   document.querySelectorAll('.profile-cards ul li').forEach((card) => {
     card.addEventListener('mouseenter', () => {
       card.querySelector('.cards-card-image').style.display = 'none';
       card.querySelector('.cards-card-body').style.display = 'block';
-    })
+    });
     card.addEventListener('mouseleave', () => {
       card.querySelector('.cards-card-image').style.display = 'block';
       card.querySelector('.cards-card-body').style.display = 'none';
-    })
+    });
   });
 }
 
